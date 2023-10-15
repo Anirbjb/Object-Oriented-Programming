@@ -1,0 +1,14 @@
+class Computer { //ini adalah method exprenssion body nya
+  void starup() =>print("computer is starting");
+  void shutdown() => print ("computer is shutdown");
+  String getOperatingSystem() =>"windows";
+  String merk()=>"Acer intel inside celeron quad core processor  N4120";
+}
+
+void main(){ //ini cara memanggilnya dengan cara yang lebih singkat lagi
+  var computer =Computer();
+  computer.starup();
+  computer.shutdown();
+  print(computer.getOperatingSystem());
+  print(computer.merk());
+}
